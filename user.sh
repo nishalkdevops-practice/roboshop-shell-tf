@@ -75,7 +75,7 @@ npm install &>> $LOGFILE
 VALIDATE $? "Installing npm source"
 
 
-cp /home/centos/roboshop-shell-practice/user.service  /etc/systemd/system/user.service &>> $LOGFILE
+cp /home/centos/roboshop-shell-tf/user.service  /etc/systemd/system/user.service &>> $LOGFILE
 
 VALIDATE $? "coping user.service file"
 
@@ -94,7 +94,7 @@ systemctl start user &>> $LOGFILE
 
 VALIDATE $? "starting user"
 
-cp  /home/centos/roboshop-shell-practice/mongo.repo /etc/yum.repos.d/mongo.repo &>> $LOGFILE
+cp  /home/centos/roboshop-shell-tf/mongo.repo /etc/yum.repos.d/mongo.repo &>> $LOGFILE
 
 VALIDATE $? "copying mongo.repo file"
 
