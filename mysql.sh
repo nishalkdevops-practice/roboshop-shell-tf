@@ -42,7 +42,7 @@ VALIDATE $? "disabling mysql module"
 
 
 
-cp /home/centos/roboshop-shell-practice/mysql.repo /etc/yum.repos.d/mysql.repo &>> $LOGFILE
+cp /home/centos/roboshop-shell-tf/mysql.repo /etc/yum.repos.d/mysql.repo &>> $LOGFILE
 
 VALIDATE $? "copying mysql repo"
 
